@@ -29,7 +29,7 @@ def main():
 
     ## add image
     image = Image.open('Heart-Attack.png')
-    st.image(image, use_column_width = False)
+    st.image(image, use_column_width = True)
 
     ## set title and content
     st.title('Heart Failure Predictor using Artificial Neural Network')
